@@ -56,6 +56,7 @@ brew install --cask logi-options+
 brew install --cask localsend
 brew install --cask moonlight
 brew install --cask obsidian
+brew install --cask openvpn-connect
 brew install --cask steam
 brew install --cask unity-hub
 brew install --cask visual-studio-code
