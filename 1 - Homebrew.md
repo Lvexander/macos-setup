@@ -44,6 +44,7 @@ brew install yarn               # JavaScript package manager
 
 ```bash
 brew install --cask 1password
+brew install --cask antigravity
 brew install --cask discord
 brew install --cask displaylink
 brew install --cask firefox
@@ -59,6 +60,5 @@ brew install --cask obsidian
 brew install --cask openvpn-connect
 brew install --cask steam
 brew install --cask unity-hub
-brew install --cask visual-studio-code
 brew install --cask vlc
 ```
