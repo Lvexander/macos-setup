@@ -11,7 +11,7 @@ Run the following command in your terminal:
 After installation, configure the environment (example for `zsh`):
 
 ```bash
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zshrc
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
