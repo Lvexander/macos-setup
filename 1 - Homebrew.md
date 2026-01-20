@@ -33,6 +33,7 @@ brew install --cask <cask_name>     # For GUI applications
 ```bash
 brew install hugo               # Configurable static site generator
 brew install huggingface-cli    # Interact with HuggingFace Hub for machine learning related (datasets, models, etc)
+brew install make               # Build tool
 brew install nvm                # Node Version Manager – manage multiple Node.js versions
 brew install uv                 # Rust-based Python Virutal ENV manager
 brew install yarn               # JavaScript package manager
