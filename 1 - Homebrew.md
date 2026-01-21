@@ -31,6 +31,7 @@ brew install --cask <cask_name>     # For GUI applications
 ### ✅ Homebrew Formulae (CLI Tools)
 
 ```bash
+brew install go                 # Go programming language
 brew install hugo               # Configurable static site generator
 brew install huggingface-cli    # Interact with HuggingFace Hub for machine learning related (datasets, models, etc)
 brew install make               # Build tool
