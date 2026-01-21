@@ -48,6 +48,7 @@ brew install --cask 1password
 brew install --cask antigravity
 brew install --cask discord
 brew install --cask displaylink
+brew install --cask docker-desktop
 brew install --cask firefox
 brew install --cask font-jetbrains-mono
 brew install --cask font-jetbrains-mono-nerd-font
