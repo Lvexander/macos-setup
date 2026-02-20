@@ -46,6 +46,7 @@ brew install yarn               # JavaScript package manager
 
 ```bash
 brew install --cask 1password
+brew install --cask affinity
 brew install --cask antigravity
 brew install --cask discord
 brew install --cask displaylink
