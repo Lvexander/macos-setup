@@ -45,7 +45,6 @@ brew install yarn               # JavaScript package manager
 ### ✅ Homebrew Casks (GUI Apps)
 
 ```bash
-brew install --cask 1password
 brew install --cask affinity
 brew install --cask antigravity
 brew install --cask discord
@@ -62,6 +61,8 @@ brew install --cask localsend
 brew install --cask moonlight
 brew install --cask obsidian
 brew install --cask openvpn-connect
+brew install --cask proton-pass # download Proton Authenticator as well from website https://proton.me/authenticator
+brew install --cask pycharm
 brew install --cask steam
 brew install --cask unity-hub
 brew install --cask vlc
