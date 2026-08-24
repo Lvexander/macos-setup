@@ -14,11 +14,13 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 ## 2. Homebrew Formulae (CLI Tools)
 
 ```bash
+brew install gh                 # GitHub CLI
 brew install go                 # Go programming language
 brew install hugo               # Configurable static site generator
 brew install hf                 # Interact with Hugging Face Hub for ML-related resources
 brew install make               # Build tool
 brew install nvm                # Node Version Manager – manage multiple Node.js versions
+brew install codex              # OpenAI Codex CLI
 brew install uv                 # Rust-based Python virtual environment/package manager
 brew install yarn               # JavaScript package manager
 brew install python             # Python programming language
@@ -58,3 +60,12 @@ brew install --cask tailscale
 ```
 
 **Proton Authenticator:** https://proton.me/authenticator
+
+---
+
+## 4. Direct Downloads / Install Scripts (Non-Homebrew)
+
+These apps/tools were installed from the web or via `curl` rather than Homebrew:
+
+- **Pi**: https://pi.dev
+- **Orca**: https://orca.dev
