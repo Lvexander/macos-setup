@@ -11,7 +11,11 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 ---
 
-## 2. Homebrew Formulae (CLI Tools)
+## 2. Homebrew-Managed Apps & Tools
+
+Everything in this section is installed and managed purely through Homebrew.
+
+### 2.1 Formulae (CLI Tools)
 
 ```bash
 brew install gh                 # GitHub CLI
@@ -31,7 +35,7 @@ brew install unar               # Extract various archive formats
 
 ---
 
-## 3. Homebrew Casks (GUI Apps)
+### 2.2 Casks (GUI Apps)
 
 ```bash
 brew install --cask affinity
@@ -58,14 +62,3 @@ brew install --cask vlc
 brew install --cask visual-studio-code
 brew install --cask tailscale
 ```
-
-**Proton Authenticator:** https://proton.me/authenticator
-
----
-
-## 4. Direct Downloads / Install Scripts (Non-Homebrew)
-
-These apps/tools were installed from the web or via `curl` rather than Homebrew:
-
-- **Pi**: https://pi.dev
-- **Orca**: https://orca.dev
