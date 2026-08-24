@@ -22,7 +22,7 @@ Paste the following content into the file:
 
 ```
 # Themes
-theme = catppuccin-mocha
+theme = Catppuccin Mocha
 font-family = Jetbrain Nerd Font
 font-size = 20
 
