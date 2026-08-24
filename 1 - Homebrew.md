@@ -1,52 +1,39 @@
-# 🛠️ MacOS Homebrew Setup
+# 🛠️ macOS Homebrew Setup
 
 ## 1. Install Homebrew
 
-Run the following command in your terminal:
-
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
 
-After installation, configure the environment (example for `zsh`):
-
-```bash
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zshrc
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
 ---
 
-## 2. Install Packages with Homebrew
-
-Use the following syntax:
-
-```bash
-brew install <formula_name>         # For CLI tools
-brew install --cask <cask_name>     # For GUI applications
-```
-
----
-
-### ✅ Homebrew Formulae (CLI Tools)
+## 2. Homebrew Formulae (CLI Tools)
 
 ```bash
 brew install go                 # Go programming language
 brew install hugo               # Configurable static site generator
-brew install huggingface-cli    # Interact with HuggingFace Hub for machine learning related (datasets, models, etc)
+brew install hf                 # Interact with Hugging Face Hub for ML-related resources
 brew install make               # Build tool
 brew install nvm                # Node Version Manager – manage multiple Node.js versions
-brew install uv                 # Rust-based Python Virutal ENV manager
+brew install uv                 # Rust-based Python virtual environment/package manager
 brew install yarn               # JavaScript package manager
+brew install python             # Python programming language
+brew install ollama             # Run large language models locally
+brew install sevenzip           # File archiver
+brew install unar               # Extract various archive formats
 ```
 
 ---
 
-### ✅ Homebrew Casks (GUI Apps)
+## 3. Homebrew Casks (GUI Apps)
 
 ```bash
 brew install --cask affinity
-brew install --cask antigravity
+brew install --cask claude
 brew install --cask discord
 brew install --cask displaylink
 brew install --cask docker-desktop
@@ -61,9 +48,13 @@ brew install --cask localsend
 brew install --cask moonlight
 brew install --cask obsidian
 brew install --cask openvpn-connect
-brew install --cask proton-pass # download Proton Authenticator as well from website https://proton.me/authenticator
+brew install --cask proton-pass
 brew install --cask pycharm
 brew install --cask steam
 brew install --cask unity-hub
 brew install --cask vlc
+brew install --cask visual-studio-code
+brew install --cask tailscale
 ```
+
+**Proton Authenticator:** https://proton.me/authenticator
